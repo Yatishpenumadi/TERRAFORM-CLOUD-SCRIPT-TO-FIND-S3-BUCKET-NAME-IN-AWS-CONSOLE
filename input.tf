@@ -1,5 +1,5 @@
-data "aws_s3_bucket" "public" {
-  bucket = "terraform-s3bucket"
+data "aws_sss_bucket" "public" {
+  bucket = "terraform-sss_bucket"
 }
 
 
