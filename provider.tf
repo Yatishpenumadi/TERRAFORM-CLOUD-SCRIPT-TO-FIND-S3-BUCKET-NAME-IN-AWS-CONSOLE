@@ -7,7 +7,7 @@ required_providers {
 
 awss3bucket = {
 
-source = "hashicorp/s3"
+source = "hashicorp/awss3"
 
 version = "~> 4.24.0"
 
