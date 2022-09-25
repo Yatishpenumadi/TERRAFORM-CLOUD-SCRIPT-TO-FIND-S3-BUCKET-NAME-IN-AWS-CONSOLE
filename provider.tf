@@ -5,9 +5,9 @@ required_version = "~> 1.3.0"
 
 required_providers {
 
-awss3bucket = {
+aws = {
 
-source = "hashicorp/awss3"
+source = "hashicorp/aws"
 
 version = "~> 4.24.0"
 
@@ -19,7 +19,7 @@ version = "~> 4.24.0"
 
 
 
-provider "awss3bucket" {
+provider "aws" {
 
 region = var.aws_region
 
