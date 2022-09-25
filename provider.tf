@@ -19,7 +19,7 @@ version = "~> 4.24.0"
 
 
 
-provider "aws" {
+provider "aws_s3_bucket" {
 
 region = var.aws_region
 
