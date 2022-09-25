@@ -1,4 +1,4 @@
 output "s3_bucket" {
   description = "ID of the EC2 instance"
-  value       = aws_s3_bucket
+  value       = data.aws_s3_bucket.id
   }
