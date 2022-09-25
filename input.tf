@@ -1,4 +1,4 @@
- data "s3_bucket" "full" {
+ data "awss3bucket" "full" {
   bucket = "terraform-sss_bucket"
 }
 
